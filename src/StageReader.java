@@ -79,7 +79,7 @@ class StageReader {
                 } else if (item.equals("boat")) {
                   stage.actors.add(new Boat(c, redness));
                 } else if (item.equals("rogue")) {
-                  stage.actors.add(new Rogue(c, redness));
+                  stage.actors.add(new NewRogue(c, redness));
                 } else {
                   System.out.println("error: " + value + ", no such actor  type" + item);
                   break;

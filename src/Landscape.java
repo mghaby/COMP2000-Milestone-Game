@@ -1,3 +1,5 @@
+// Mark Ghaby - 47172584
+
 abstract class Landscape extends Cell {
   protected int height;
   protected float shade;

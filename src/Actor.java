@@ -1,3 +1,5 @@
+// Mark Ghaby - 47172584
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;

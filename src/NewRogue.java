@@ -1,3 +1,5 @@
+// Mark Ghaby - 47172584
+
 public class NewRogue extends Rogue {
     
     NewRogue(Cell inLoc, float inRedness) {

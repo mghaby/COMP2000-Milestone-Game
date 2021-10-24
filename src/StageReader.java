@@ -1,3 +1,5 @@
+// Mark Ghaby - 47172584
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -79,6 +81,7 @@ class StageReader {
                 } else if (item.equals("boat")) {
                   stage.actors.add(new Boat(c, redness));
                 } else if (item.equals("rogue")) {
+                  // New Rogue Instansiation 
                   stage.actors.add(new NewRogue(c, redness));
                 } else {
                   System.out.println("error: " + value + ", no such actor  type" + item);

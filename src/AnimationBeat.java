@@ -1,3 +1,5 @@
+// Mark Ghaby - 47172584
+
 public class AnimationBeat {
   private long started;
   private long phiA; // length of phase a
